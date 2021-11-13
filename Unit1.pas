@@ -127,6 +127,7 @@ type
     procedure N4Click(Sender: TObject);
     procedure N31Click(Sender: TObject);
     procedure N41Click(Sender: TObject);
+    procedure PanelDCClick(Sender: TObject);
 private
   { Private declarations }
   procedure ResetView();
@@ -1063,6 +1064,11 @@ end;
 procedure TFormM.N41Click(Sender: TObject);
 begin
   menu5();
+end;
+
+procedure TFormM.PanelDCClick(Sender: TObject);
+begin
+
 end;
 
 end.  //Rebuild by JeyFry
