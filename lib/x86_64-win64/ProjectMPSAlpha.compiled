@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="D:\lazarus\fpc\3.2.0\bin\x86_64-win64\fpc.exe" Date="1381338938"/>
+  <Params Value=" -Mdelphi -Scghi -O1 -g -gl -WG -l -vewnhibq -FuD:\lazarus\lcl\units\x86_64-win64\win32 -FuD:\lazarus\lcl\units\x86_64-win64 -FuD:\lazarus\components\lazutils\lib\x86_64-win64 -FuD:\lazarus\packager\units\x86_64-win64 -FuD:\codezzz\RISC_SRC\ -FED:\codezzz\RISC_SRC\lib\x86_64-win64\ -oD:\codezzz\RISC_SRC\lib\x86_64-win64\ProjectMPSAlpha.exe -dLCL -dLCLwin32 -dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL ProjectMPSAlpha.lpr"/>
+</CONFIG>

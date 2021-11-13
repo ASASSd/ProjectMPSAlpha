@@ -1,0 +1,40 @@
+object FormMain: TFormMain
+  Left = 2143
+  Height = 636
+  Top = 88
+  Width = 642
+  BorderStyle = bsDialog
+  Caption = '...'
+  ClientHeight = 636
+  ClientWidth = 642
+  Color = clBtnFace
+  DesignTimePPI = 120
+  Font.Color = clWindowText
+  Font.Height = -14
+  Font.Name = 'Tahoma'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '2.0.12.0'
+  object ProgressBar1: TProgressBar
+    Left = 10
+    Height = 41
+    Top = 10
+    Width = 514
+    Font.Color = clWindowText
+    Font.Height = -14
+    Font.Name = 'Tahoma'
+    Max = 10
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Timer1: TTimer
+    Interval = 5000
+    OnTimer = Timer1Timer
+    Left = 40
+  end
+  object Timer2: TTimer
+    Interval = 100
+    OnTimer = Timer2Timer
+    Left = 100
+  end
+end

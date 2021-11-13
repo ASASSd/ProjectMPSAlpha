@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="11">
+      <Unit0>
+        <Filename Value="ProjectMPSAlpha.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos Y="20"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="UnitMain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="60"/>
+        <CursorPos X="86"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="UnitTypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="143"/>
+        <CursorPos X="26" Y="160"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="Unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormM"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="598"/>
+        <CursorPos X="61" Y="603"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="UnitEditor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormEditor"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="101"/>
+        <CursorPos X="8" Y="115"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="D:\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="9935"/>
+        <CursorPos Y="9946"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="D:\lazarus\lcl\include\application.inc"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="1451"/>
+        <CursorPos X="35" Y="1406"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="D:\lazarus\lcl\interfaces\win32\win32object.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="116"/>
+        <CursorPos Y="131"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="D:\lazarus\lcl\include\wincontrol.inc"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="3588"/>
+        <CursorPos Y="3599"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="2319"/>
+        <CursorPos Y="2332"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="D:\lazarus\lcl\include\control.inc"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="4544"/>
+        <CursorPos Y="4562"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit10>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <Caret Line="653" TopLine="642"/>
+      </Position1>
+      <Position2>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <Caret Line="655" Column="26" TopLine="642"/>
+      </Position2>
+      <Position3>
+        <Filename Value="D:\lazarus\lcl\include\control.inc"/>
+        <Caret Line="2242" TopLine="2231"/>
+      </Position3>
+      <Position4>
+        <Filename Value="D:\lazarus\lcl\include\wincontrol.inc"/>
+        <Caret Line="5412" TopLine="5401"/>
+      </Position4>
+      <Position5>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <Caret Line="1478" TopLine="1468"/>
+      </Position5>
+      <Position6>
+        <Filename Value="D:\lazarus\lcl\include\control.inc"/>
+        <Caret Line="1582" TopLine="1570"/>
+      </Position6>
+      <Position7>
+        <Filename Value="D:\lazarus\lcl\include\control.inc"/>
+        <Caret Line="1583" TopLine="1570"/>
+      </Position7>
+      <Position8>
+        <Filename Value="D:\lazarus\lcl\include\wincontrol.inc"/>
+        <Caret Line="4381" TopLine="4369"/>
+      </Position8>
+      <Position9>
+        <Filename Value="D:\lazarus\lcl\include\wincontrol.inc"/>
+        <Caret Line="4378" TopLine="4369"/>
+      </Position9>
+      <Position10>
+        <Filename Value="D:\lazarus\lcl\include\wincontrol.inc"/>
+        <Caret Line="4393" TopLine="4384"/>
+      </Position10>
+      <Position11>
+        <Filename Value="D:\lazarus\lcl\include\wincontrol.inc"/>
+        <Caret Line="4436" TopLine="4425"/>
+      </Position11>
+      <Position12>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <Caret Line="2804" TopLine="2793"/>
+      </Position12>
+      <Position13>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <Caret Line="2806" TopLine="2793"/>
+      </Position13>
+      <Position14>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <Caret Line="2814" TopLine="2796"/>
+      </Position14>
+      <Position15>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <Caret Line="2815" TopLine="2797"/>
+      </Position15>
+      <Position16>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <Caret Line="2816" TopLine="2798"/>
+      </Position16>
+      <Position17>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <Caret Line="2821" TopLine="2810"/>
+      </Position17>
+      <Position18>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <Caret Line="2823" TopLine="2810"/>
+      </Position18>
+      <Position19>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <Caret Line="2825" TopLine="2810"/>
+      </Position19>
+      <Position20>
+        <Filename Value="D:\lazarus\lcl\include\wincontrol.inc"/>
+        <Caret Line="3587" TopLine="3576"/>
+      </Position20>
+      <Position21>
+        <Filename Value="D:\lazarus\lcl\include\wincontrol.inc"/>
+        <Caret Line="3599" TopLine="3588"/>
+      </Position21>
+      <Position22>
+        <Filename Value="D:\lazarus\lcl\include\control.inc"/>
+        <Caret Line="5737" TopLine="5727"/>
+      </Position22>
+      <Position23>
+        <Filename Value="D:\lazarus\lcl\include\control.inc"/>
+        <Caret Line="5756" TopLine="5745"/>
+      </Position23>
+      <Position24>
+        <Filename Value="D:\lazarus\lcl\include\control.inc"/>
+        <Caret Line="4558" TopLine="4547"/>
+      </Position24>
+      <Position25>
+        <Filename Value="D:\lazarus\lcl\include\control.inc"/>
+        <Caret Line="4560" TopLine="4547"/>
+      </Position25>
+      <Position26>
+        <Filename Value="D:\lazarus\lcl\include\control.inc"/>
+        <Caret Line="4562" TopLine="4547"/>
+      </Position26>
+      <Position27>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <Caret Line="493" TopLine="482"/>
+      </Position27>
+      <Position28>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <Caret Line="496" TopLine="482"/>
+      </Position28>
+      <Position29>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <Caret Line="2331" TopLine="2319"/>
+      </Position29>
+      <Position30>
+        <Filename Value="D:\lazarus\lcl\include\customform.inc"/>
+        <Caret Line="2332" TopLine="2319"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <SkipCheckLCLInterfaces Value="True"/>
+</CONFIG>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.04.27 15:29:05.332.pas,C:\Users\wet`\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\wet`\Documents\RAD Studio\Projects\mps-alpha-start\UnitMain.pas</Transaction>
+    <Transaction>2010.04.27 15:29:05.332.dfm,C:\Users\wet`\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\wet`\Documents\RAD Studio\Projects\mps-alpha-start\UnitMain.dfm</Transaction>
+    <Transaction>2010.04.27 15:29:19.481.dproj,C:\Users\wet`\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\wet`\Documents\RAD Studio\Projects\mps-alpha-start\ProjectMPSAlpha.dproj</Transaction>
+    <Transaction>2010.05.03 12:45:29.926.pas,C:\Users\wet`\Documents\RAD Studio\Projects\mps-alpha-start\Unit1.pas=C:\Users\wet`\Documents\RAD Studio\Projects\mps-alpha-start\UnitTypes.pas</Transaction>
+  </Transactions>
+</BorlandProject>
