@@ -1021,14 +1021,17 @@ object FormM: TFormM
     TabOrder = 37
   end
   object ALU_CMD: TLabel
-    Left = 450
+    Left = 448
     Height = 1
     Top = 525
     Width = 1
     Color = clBtnFace
-    Font.Color = clWindowText
-    Font.Height = -19
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -17
     Font.Name = 'Tahoma'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
     Font.Style = [fsBold]
     ParentColor = False
     ParentFont = False

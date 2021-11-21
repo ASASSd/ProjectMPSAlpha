@@ -1023,7 +1023,7 @@ object FormM: TFormM
   object ALU_CMD: TLabel
     Left = 450
     Height = 1
-    Top = 535
+    Top = 525
     Width = 1
     Color = clBtnFace
     Font.Color = clWindowText
