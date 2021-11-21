@@ -1,2 +1,2 @@
 # ProjectMPSAlpha
-RISC conveyor emulator written in Object Pascal/Deplhi
+RISC conveyor emulator written in Object Pascal/Delphi
