@@ -1,0 +1,90 @@
+    begin
+      if(NameOP='OR') then RResult.input:=BUF1.output or Buf2.output;
+      if(NameOP='AND') then RResult.input:=BUF1.output and Buf2.output;
+
+      if(NameOP='INCR') then
+      begin
+           RResult.input:=BUF1.output+1;
+           if RResult.input < BUF1.output then CF:=True;
+      end;
+
+      if(NameOP='DECR') then
+      begin
+           RResult.input:=BUF1.output-1;
+           if RResult.input > BUF1.output then CF:=True;
+      end;
+
+      if(NameOP='ADD') then
+      begin
+           RResult.input:=BUF1.output+Buf2.output;
+           if RResult.input < BUF2.output or RResult.input < BUF1.output then CF := True;
+      end
+
+      if(NameOP='SUB') then
+      begin
+           RResult.input:=BUF2.output-Buf1.output;
+           if RResult.input > BUF2.output then CF := True;
+      end
+
+      if RResult.input = 0 then ZF:=True;
+
+      lastResult:=RResult.input;
+    end;
+
+
+
+
+procedure TFormM.RunStage4(); // Четвертая ступень ( EXECUTE )
+var
+  checkWhat:Word;
+  bit15gaming:Word;
+begin
+  With cmdpipe[4] do
+  begin
+    BUF1.output:=Buf1.input;
+    BUF2.output:=Buf2.input;
+    if TypeOP=jump then
+    begin
+      if(NameOP='JZ') then dropPipe :=  ZF xor jumpPrediction(Adress);
+      if(NameOP='JC') then dropPipe:= CF xor jumpPrediction(Adress);
+      if(NameOP='JP') then dropPipe:= PF xor jumpPrediction(Adress);
+      if(dropPipe) then // Когда вызывается пик
+      begin
+        if(jumpPrediction(Adress)) then Pcom:=Adress+1 //Adress - откуда
+        else
+        begin
+          Pcom:=R_CONST; //R_CONST - Куда
+          ZF:=false;
+          CF:=false; //Чтобы не переходил по единожды установленному флагу
+          PF:=false;
+        end;
+        changePrediction(Adress);
+        cmdpipe[1]:=cmdNOP;
+        cmdpipe[2]:=cmdNOP;
+        cmdpipe[3]:=cmdNOP;
+      end;
+    end else //if not(cmdpipe[3].TypeOP=Nop) then
+    begin
+      ZF:=false;CF:=false;PF:=false;
+    end;
+    if TypeOP=exec then
+    begin
+      bit15gaming:=32768;
+      if(NameOP='OR') then RResult.input:=BUF1.output or Buf2.output;
+      if(NameOP='AND') then RResult.input:=BUF1.output and Buf2.output;
+      if(NameOP='INCR') then RResult.input:=BUF1.output+1;
+      if(NameOP='DECR') then RResult.input:=BUF1.output-1;
+      if(NameOP='ADD') then RResult.input:=BUF1.output+Buf2.output;
+      if(NameOP='SUB') then RResult.input:=BUF2.output-Buf1.output;
+
+      if RResult.input = 0 then ZF:=True
+      else begin
+        bit15gaming:=RResult.input-bit15gaming;
+        if bit15gaming>RResult.input then CF:=True
+        else PF:=True;
+      end;
+
+      lastResult:=RResult.input;
+    end;   
+  end;
+end; 
